@@ -1,2 +1,6 @@
-package view.cammands;public class CommandsMenu {
+package view.cammands;
+
+public interface CommandsMenu {
+    String getDescription();
+    void execute();
 }

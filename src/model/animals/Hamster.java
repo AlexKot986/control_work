@@ -1,7 +1,7 @@
-package model;
+package model.animals;
 
 public class Hamster extends Pet {
-    public Hamster(String name, String birthday) {
-        super(name, birthday);
+    public Hamster(String name, String birthDate) {
+        super(name, birthDate);
     }
 }

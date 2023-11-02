@@ -1,9 +1,8 @@
-package model;
-
-import model.Animal;
+package model.animals;
 
 public class Pet extends Animal {
-    public Pet(String name, String date) {
-        super(name, date);
+    public Pet(String name, String birthDate) {
+        super(name, birthDate);
     }
+
 }

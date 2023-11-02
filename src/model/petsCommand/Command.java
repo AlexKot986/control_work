@@ -1,8 +1,6 @@
-package model;
-
-import model.Animal;
+package model.petsCommand;
 
 public interface Command {
     String description();
-    void execute(Animal animal);
+    void execute();
 }

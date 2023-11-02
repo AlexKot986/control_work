@@ -1,2 +1,7 @@
-package view;public interface View {
+package view;
+
+import java.io.IOException;
+
+public interface View {
+    void start() throws IOException, ClassNotFoundException;
 }
